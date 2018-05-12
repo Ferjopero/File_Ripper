@@ -22,6 +22,7 @@ for file in os.listdir(directory_input):
         file.close()
         content_list = content.split(split_criteria)
         content = None
+        content_list.sort()
         subfiles_counter = 0
         elements_list = ''
 
